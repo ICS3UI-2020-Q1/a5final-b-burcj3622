@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "5",
+      "output": "Please enter the maximum number to sum to:\r\nThe sum of the odd numbers is 9",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "10",
+      "output": "Please enter the maximum number to sum to:\r\nThe sum of the odd numbers is 25",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "zero",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "0",
+      "output": "Please enter the maximum number to sum to:\r\nThe sum of the odd numbers is 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "one",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "1",
+      "output": "Please enter the maximum number to sum to:\r\nThe sum of the odd numbers is 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
